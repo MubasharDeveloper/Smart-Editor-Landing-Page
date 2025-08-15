@@ -2340,12 +2340,19 @@
  .list-style-two li {
    position: relative;
    display: block;
-   font-size: 18px;
+   font-size: 16px;
    line-height: 24px;
-   font-weight: 500;
-   color: var(--title-color);
    padding-left: 17px;
-   margin-bottom: 20px;
+   margin-bottom: 14px;
+   font-family: var(--text-font);
+   color: var(--text-color);
+   font-weight: 400;
+   transition: all 500ms ease;
+
+   & strong{
+     color: var(--title-color);
+   }
+
  }
 
  .list-style-two li:last-child {
