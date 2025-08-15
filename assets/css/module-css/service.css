@@ -1,31 +1,30 @@
-
 /** service-section **/
 
 
-.service-section{
+.service-section {
   position: relative;
 }
 
-.content_block_three .content-box{
+.content_block_three .content-box {
   position: relative;
   display: block;
 }
 
-.content_block_three .content-box h2{
+.content_block_three .content-box h2 {
   font-size: 36px;
   line-height: 42px;
   margin-bottom: 22px;
 }
 
-.content_block_three .content-box p{
+.content_block_three .content-box p {
   margin-bottom: 35px;
 }
 
-.content_block_three .content-box .list-style-two{
+.content_block_three .content-box .list-style-two {
   margin-bottom: 40px;
 }
 
-.service-section .image-box{
+.service-section .image-box {
   position: relative;
   display: block;
   padding: 40px;
@@ -33,40 +32,45 @@
   border-radius: 20px;
 }
 
-.service-section .image-box .image{
+.service-section .image-box .image {
   position: relative;
   display: block;
   box-shadow: 0px 20px 50px 0px #0000001A;
 }
 
-.service-section .image-box .image img{
+.service-section .image-box .image img {
   width: 100%;
 }
 
-.service-section .tab-btns{
+.service-section .tab-btns {
   position: relative;
-  display: block;
-  background: #F9F9F9;
-  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #f3f3f3;
+  border-radius: 14px;
   overflow: hidden;
+  padding: 12px;
 }
 
-.service-section .tab-btns li{
+.service-section .tab-btns li {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
+  flex-grow: 1;
   float: left;
   font-size: 20px;
   line-height: 30px;
   font-family: var(--title-font);
   color: var(--title-color);
   font-weight: 500;
-  padding: 18px 52px;
+  padding: 16px 24px;
   border-radius: 10px;
   cursor: pointer;
   transition: all 500ms ease;
+  justify-content: center;
 }
 
-.service-section .tab-btns li.active-btn{
+.service-section .tab-btns li.active-btn {
   color: #fff;
   background: var(--theme-color);
 }
@@ -74,11 +78,11 @@
 
 /** service-style-two **/
 
-.service-style-two{
+.service-style-two {
   position: relative;
 }
 
-.service-style-two .inner-container{
+.service-style-two .inner-container {
   position: relative;
   display: block;
   border-radius: 20px;
@@ -88,7 +92,7 @@
   border: 1px solid #fff;
 }
 
-.service-style-two .inner-container .shape{
+.service-style-two .inner-container .shape {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -98,7 +102,7 @@
   background-position: center;
 }
 
-.service-block-one .inner-box{
+.service-block-one .inner-box {
   position: relative;
   display: block;
   background: #384BFE;
@@ -108,35 +112,35 @@
   margin-bottom: 30px;
 }
 
-.service-block:nth-child(2) .service-block-one .inner-box{
+.service-block:nth-child(2) .service-block-one .inner-box {
   background: #262E36;
 }
 
-.service-block:nth-child(3) .service-block-one .inner-box{
+.service-block:nth-child(3) .service-block-one .inner-box {
   background: #fff;
 }
 
-.service-block:nth-child(4) .service-block-one .inner-box{
+.service-block:nth-child(4) .service-block-one .inner-box {
   background: #35CAD3;
 }
 
 .service-block:nth-child(3) .service-block-one .inner-box h3,
-.service-block:nth-child(4) .service-block-one .inner-box h3{
+.service-block:nth-child(4) .service-block-one .inner-box h3 {
   color: #0D0D0D;
 }
 
 .service-block:nth-child(3) .service-block-one .inner-box p,
-.service-block:nth-child(4) .service-block-one .inner-box p{
+.service-block:nth-child(4) .service-block-one .inner-box p {
   color: #6A6A6A;
 }
 
 .service-block:nth-child(3) .service-block-one .inner-box .link a,
-.service-block:nth-child(4) .service-block-one .inner-box .link a{
+.service-block:nth-child(4) .service-block-one .inner-box .link a {
   background: #0D0D0D;
   color: #fff;
 }
 
-.service-block-one .inner-box h3{
+.service-block-one .inner-box h3 {
   position: relative;
   display: block;
   font-size: 24px;
@@ -145,12 +149,12 @@
   margin-bottom: 7px;
 }
 
-.service-block-one .inner-box p{
+.service-block-one .inner-box p {
   color: #fff;
   margin-bottom: 20px;
 }
 
-.service-block-one .inner-box .link a{
+.service-block-one .inner-box .link a {
   position: relative;
   display: inline-block;
   width: 55px;
@@ -163,13 +167,13 @@
   color: #384BFE;
 }
 
-.service-block-one .inner-box .image{
+.service-block-one .inner-box .image {
   position: absolute;
   right: 0px;
   bottom: 0px;
 }
 
-.service-style-two .pattern-layer{
+.service-style-two .pattern-layer {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -182,11 +186,11 @@
 
 /** service-style-three **/
 
-.service-style-three{
+.service-style-three {
   position: relative;
 }
 
-.service-style-three .image-box{
+.service-style-three .image-box {
   position: relative;
   display: block;
   background: #F3F3FF;
@@ -194,22 +198,22 @@
   padding: 48px 48px 0px 48px;
 }
 
-.service-style-three .image-box .image{
+.service-style-three .image-box .image {
   position: relative;
   display: block;
   border-radius: 10px 10px 0px 0px;
 }
 
-.service-style-three .image-box .image img{
+.service-style-three .image-box .image img {
   width: 100%;
   border-radius: 10px 10px 0px 0px;
 }
 
-.service-style-three .tab-btns{
+.service-style-three .tab-btns {
   position: relative;
 }
 
-.service-style-three .tab-btns li{
+.service-style-three .tab-btns li {
   position: relative;
   display: inline-block;
   float: left;
@@ -229,16 +233,16 @@
   transition: all 500ms ease;
 }
 
-.service-style-three .tab-btns li:last-child{
+.service-style-three .tab-btns li:last-child {
   margin-right: 0px;
 }
 
-.service-style-three .tab-btns li.active-btn{
+.service-style-three .tab-btns li.active-btn {
   color: #fff;
   background: var(--theme-color);
 }
 
-.service-style-three .pattern-layer .pattern-1{
+.service-style-three .pattern-layer .pattern-1 {
   position: absolute;
   left: 0px;
   top: -300px;
@@ -247,7 +251,7 @@
   background-repeat: no-repeat;
 }
 
-.service-style-three .pattern-layer .pattern-2{
+.service-style-three .pattern-layer .pattern-2 {
   position: absolute;
   right: 0px;
   top: -300px;
@@ -260,129 +264,84 @@
 
 /** rtl-css **/
 
-.rtl .content_block_three .content-box{
+.rtl .content_block_three .content-box {
   margin-right: 0px;
   margin-left: 40px;
 }
 
-.rtl .service-section .image-box{
+.rtl .service-section .image-box {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-.rtl .service-block-one .inner-box .image{
+.rtl .service-block-one .inner-box .image {
   right: inherit;
   left: 0px;
 }
 
-.rtl .service-style-three .tab-btns li{
+.rtl .service-style-three .tab-btns li {
   float: right;
   margin-right: 0px;
   margin-left: 15px;
 }
 
-.rtl .service-style-three .tab-btns li:last-child{
+.rtl .service-style-three .tab-btns li:last-child {
   margin-left: 0px;
 }
 
 
 /** responsive-css **/
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1200px) {}
 
-}
-
-@media only screen and (max-width: 991px){
-  .content_block_three .content-box{
+@media only screen and (max-width: 991px) {
+  .content_block_three .content-box {
     margin: 0px 0px 30px 0px;
   }
 
-  .service-section .image-box{
+  .service-section .image-box {
     margin: 0px;
   }
 
-  .rtl .content_block_three .content-box{
+  .rtl .content_block_three .content-box {
     margin-left: 0px;
   }
 
-  .rtl .service-section .image-box{
+  .rtl .service-section .image-box {
     margin-right: 0px;
   }
 
-  .service-style-three .image-box{
+  .service-style-three .image-box {
     margin-left: 0px;
   }
 }
 
-@media only screen and (max-width: 767px){
-  .service-section{
+@media only screen and (max-width: 767px) {
+  .service-section {
     padding-bottom: 70px;
   }
 
-  .content_block_three .content-box h2{
+  .content_block_three .content-box h2 {
     font-size: 30px;
     line-height: 40px;
   }
 
   .service-style-two,
-  .service-style-three{
+  .service-style-three {
     padding-bottom: 70px;
   }
 
-  .service-style-two .inner-container{
+  .service-style-two .inner-container {
     padding-top: 65px;
     padding-bottom: 40px;
   }
 }
 
-@media only screen and (max-width: 599px){
+@media only screen and (max-width: 599px) {}
 
-}
-
-@media only screen and (max-width: 499px){
-  .service-style-two .inner-container{
+@media only screen and (max-width: 499px) {
+  .service-style-two .inner-container {
     padding-left: 30px;
     padding-right: 30px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
